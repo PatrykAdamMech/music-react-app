@@ -1,0 +1,22 @@
+/* Styles for the AppContainer */
+.app-container {
+  transition: all 0.5s ease;
+  margin-left: 0;
+}
+
+/* Styles when library is open */
+.library-open {
+  margin-left: 20rem;
+}
+
+/* Styles when library is open */
+.account-open {
+  margin-right: 20rem;
+}
+
+/* Media query for responsive behavior */
+@media screen and (max-width: 768px) {
+  .app-container {
+    margin-left: 0;
+  }
+}
